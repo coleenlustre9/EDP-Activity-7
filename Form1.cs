@@ -81,7 +81,7 @@ namespace EDPAct4Lustre
                 switch (ex.Number)
                 {
                     case 0:
-                        MessageBox.Show("Cannot connect to server. Contact administrator");
+                        MessageBox.Show("Cannot connect to the server. Please contact the administrator for assistance.");
                         break;
                     case 1045:
                         MessageBox.Show("Invalid username/password, please try again", 

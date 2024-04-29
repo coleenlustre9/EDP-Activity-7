@@ -64,7 +64,7 @@ namespace EDPAct4Lustre
             }
             else
             {
-                MessageBox.Show("YOU ENTERED A WRONG ANSWER", "FAILED LOG IN", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("YOU ENTERED A WRONG ANSWER. PLEASE TRY AGAIN.", "FAILED LOG IN", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
 
