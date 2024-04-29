@@ -55,7 +55,6 @@ namespace EDPAct4Lustre
         {
             
             string answer = this.answer.Text;
-
             if (answer == "nothing")
             {
                 this.Hide();
@@ -63,7 +62,7 @@ namespace EDPAct4Lustre
                 nextform.Show();
             }
             else
-            {
+            { //pop up notification if the password did not match
                 MessageBox.Show("YOU ENTERED A WRONG ANSWER. PLEASE TRY AGAIN.", "FAILED LOG IN", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             

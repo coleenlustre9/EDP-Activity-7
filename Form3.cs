@@ -92,6 +92,8 @@ namespace EDPAct4Lustre
             }
             */
 
+
+            //connecting to the database using constructor
             MySql.Data.MySqlClient.MySqlConnection conn;
             string myConnectionString;
             myConnectionString = "server=127.0.0.1;uid=root;" +
