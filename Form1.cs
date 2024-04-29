@@ -49,6 +49,7 @@ namespace EDPAct4Lustre
                 MessageBox.Show("INVALID USERNAME OR PASSWORD", "INVALID", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }*/
 
+            //connecting to the database for authentication
             MySql.Data.MySqlClient.MySqlConnection conn;
             string myConnectionString;
             myConnectionString = "server=127.0.0.1;uid=root;" +
